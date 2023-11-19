@@ -17,7 +17,6 @@ The application is organized into several key directories:
         * todo_tile.dart: Custom widget for displaying individual tasks.
 
 
-
 ## Features
 **Task Management**: Users can add, view, and delete tasks.
 **Persistent Storage**: Uses Hive for local storage to persist tasks.

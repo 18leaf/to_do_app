@@ -1,16 +1,42 @@
-# to_do_app
+# Flutter To Do App
 
-simple Todo notes app with local storage
+## Overview
+This To-Do application is a Flutter project designed for managing tasks efficiently. The application offers a user-friendly interface for adding, viewing, and managing tasks with seamless interactions with a local database.
+
+## Application Structure
+The application is organized into several key directories:
+  * lib/
+      * data/
+          database.dart: Manages the Hive database operations like initial data creation, data loading, and updates.
+      * pages/
+          home_page.dart: The main interface for displaying and interacting with tasks.
+      * util/
+          dialog_box.dart: Manages the dialog box for adding new tasks.
+          my_button.dart: Custom button widget for various UI actions.
+          todo_tile.dart: Custom widget for displaying individual tasks.
+
+  main.dart: The entry point of the application, initializing the app and Hive database.
+
+## Features
+Task Management: Users can add, view, and delete tasks.
+Persistent Storage: Uses Hive for local storage to persist tasks.
+Custom Widgets: Utilizes custom widgets for task tiles, buttons, and dialog boxes, enhancing the user experience.
+
+## Usage
+Viewing Tasks: The HomePage displays a list of tasks.
+Adding Tasks: Users can add tasks through a dialog box by tapping the '+' button.
+Updating Tasks: Tasks can be marked as completed or pending by toggling the checkbox.
+Deleting Tasks: Tasks can be removed by swiping or using a delete button.
 
 ## Getting Started
+Clone the repository and navigate to the project directory.
+Run flutter pub get to install the necessary dependencies.
+Launch the application using flutter run.
 
-This project is a starting point for a Flutter application.
+## Dependencies
+  Flutter SDK
+  Hive for local storage
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tutorial Reference
+  Mitch Koko [YouTube](https://www.youtube.com/watch?v=HQ_ytw58tC4&t=6055s&ab_channel=MitchKoko)
+  

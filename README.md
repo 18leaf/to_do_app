@@ -18,7 +18,6 @@ The application is organized into several key directories:
 
 ## App UI
 ![App Ui](https://github.com/18leaf/to_do_app/blob/main/ToDoAppImage.png)
-
 ## Features
 **Task Management**: Users can add, view, and delete tasks.
 **Persistent Storage**: Uses Hive for local storage to persist tasks.

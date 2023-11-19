@@ -16,6 +16,8 @@ The application is organized into several key directories:
         * my_button.dart: Custom button widget for various UI actions.
         * todo_tile.dart: Custom widget for displaying individual tasks.
 
+## App UI
+![App Ui](https://github.com/18leaf/to_do_app/blob/main/ToDoAppImage.png)
 
 ## Features
 **Task Management**: Users can add, view, and delete tasks.
